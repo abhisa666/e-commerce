@@ -1,0 +1,58 @@
+.shop-container{
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 2%; */
+    background: whitesmoke;
+
+}
+
+.merch, .books,  .ebay{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black;
+    border-radius: 5%; */
+    padding: 1%;
+}
+
+.merch > a, .books > a, .ebay > a {
+    text-decoration: none;
+    height: 2rem;
+    width: 8rem;
+    color: black;
+    font-size: larger;
+    background: whitesmoke ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.merch{
+    background: whitesmoke url('../../merch-pic.svg') no-repeat center;
+    background-size: contain;
+}
+
+.books{
+    background: whitesmoke url('../../books-pic.svg') no-repeat center;
+    background-size: contain;
+}
+.ebay{
+    background: whitesmoke url('../../ebay-pic.svg') no-repeat center;
+    background-size: contain;
+}
+
+.details{
+    color: white;
+    background: blue;
+}
+/* 
+.row{
+    width: 100%;
+    height: 100%;
+} */

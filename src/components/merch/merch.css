@@ -1,0 +1,35 @@
+.merch-container{
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateY(10vh); */
+}
+
+.left{
+    min-height: 50rem;
+    width: 15%;
+    background: whitesmoke;
+    display: none;
+}
+
+.right{
+    min-height: 50rem;
+    width: 80%;
+    background: whitesmoke;
+}
+
+.filters{
+    height: 5rem;
+    width: 100%;
+    background: whitesmoke;
+    display: none;
+}
+
+.items-container > .row{
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+

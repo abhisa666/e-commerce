@@ -1,0 +1,64 @@
+.card{
+    height: 25rem;
+    width: 105%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    box-shadow: 2px 2px 10px black;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 4%;
+}
+
+.item-img{
+    height: 80%;
+    width: 100%;
+}
+
+.item-img > img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.add-btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #edb600;
+    padding: 3%;
+    transition: all 0.5s ease;
+}
+
+.add-btn:hover{
+    background: black;
+    color: white;
+}
+
+.in-cart{
+    background: black;
+    color: white;
+    pointer-events: none;
+}
+
+/* .item-content{
+    height: 10rem;
+    width: 10rem;
+    background: chartreuse;
+}
+
+.btn-section{
+    height: 10rem;
+    width: 10rem;
+    background: chartreuse;
+} */
+
+.item-btn-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
